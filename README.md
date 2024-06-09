@@ -57,10 +57,11 @@ The following defaults are provided:
   port = 8080, -- the port on which the Marp server should listen
   wait_for_response_timeout = 30, -- how long to wait for a response from the server before giving up
   wait_for_response_delay = 1, -- how long to wait between attempts to connect to the server
+  cli_options = "", -- some extra command line arguments for the marp-cli
 }
 ```
 
-In the above example, the Marp server will be started on port 8080, and the plugin will wait for up to 30 seconds for a response from the server before giving up. It will try to connect to the server every second.
+In the above example, the Marp server will be started on port 8080, and the plugin will wait for up to 30 seconds for a response from the server before giving up. It will try to connect to the server every second. No extra command line arguments are passed to the marp-cli.
 
 ## ⌨️ Keybindings
 
